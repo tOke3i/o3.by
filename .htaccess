@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^o3\.by\.odorgon\.by$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.o3\.by\.odorgon\.by$
+RewriteRule ^/?$ "http\:\/\/o3\.by" [R=301,L]
+
