@@ -230,19 +230,39 @@
 <br>
 <br>
 <form id="form1" class="form-inline" method="post" action="">
+    <!--  -->
+     <div class="form-group">
+    <label class="sr-only" for="name"></label>
+    <input autofocus type="email" class="form-control email" name="name" id="name" placeholder="Ваше Имя"></div>
+    <!--  -->
+    <br>
+    <br>
   <div class="form-group">
     <label class="sr-only" for="exampleInputEmail3"></label>
-    <input autofocus type="email" class="form-control email" id="exampleInputEmail3" placeholder="Email"></div>
-  <button id="subscribe" type="submit" method="post" value="subscribedEmail" class="btn subscribe">Подписаться</button>
+    <input  type="email" class="form-control email" name="email" id="exampleInputEmail3" placeholder="Email"></div>
+<br>
+<br>
+  <button id="subscribe" name="email" type="submit" method="post" value="subscribedEmail" class="btn subscribe">Подписаться</button>
 </form>
 </div>
 
 <div class="col-md-4 col-sm-12 col-xs-12">
 <h6 class="cont-cont">Напишите нам ваши отзыва о нашей продукции:</h6>
 <form id="form2" class="form-inline" method="post" action="">
+     <div class="form-group">
+    <label class="sr-only" for="name"></label>
+    <input  type="email" class="form-control email" name="name" id="name2" placeholder="Ваше Имя"></div>
+    <!--  -->
+    <br>
+    <br>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3"></label>
+    <input type="email" class="form-control email" name="email" id="exampleInputEmail22" placeholder="Email"></div>
+<br>
+<br>
   <div class="form-group">
     <label for="comment"></label>
-    <textarea class="form-control container" rows="5" id="comment"></textarea>
+    <textarea class="form-control container" name="text" rows="5" placeholder="Напишите ваш отзыв или пожелание здесь!" id="comment"></textarea>
   </div>
   <button id="send_comments" type="submit" value="comment" class="btn subscribe">Отправить</button>
 </form>
